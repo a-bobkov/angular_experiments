@@ -1,80 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Directives</title>
-    <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Angular experiments : My experiments with AngularJS" />
 
-    <style>
-        .container {
-            margin-top: 40px;
-        }
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-        dl {
-            margin: 0 20px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container well">
-        <h1>Directives list</h1>
-        <dl>
-            <dt><a href="ng-if/index.html">ng-if</a></dt>
-            <dd>no additional requirements</dd>
+    <title>Angular experiments</title>
+  </head>
 
-            <dt><a href="tb-tooltip/index.html">tb-tooltip</a></dt>
-            <dd>require jQuery, Bootstrap Tooltips component</dd>
+  <body>
 
-            <dt><a href="ui-alerts/index.html">ui-alerts</a></dt>
-            <dd>no additional requirements</dd>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/a-bobkov/angular_experiments">View on GitHub</a>
 
-            <dt><a href="ui-checkbox/index.html">ui-checkbox</a></dt>
-            <dd>no additional requirements</dd>
+          <h1 id="project_title">Angular experiments</h1>
+          <h2 id="project_tagline">My experiments with AngularJS</h2>
 
-            <dt><a href="ui-checkboxgroup/index.html">ui-checkboxgroup</a></dt>
-            <dd>no additional requirements</dd>
-
-            <dt><a href="ui-conditional-attributes/index.html">ui-conditional-attributes</a></dt>
-            <dd>no additional requirements</dd>
-
-            <dt><a href="ui-datetime/index.html">ui-datetime</a></dt>
-            <dd>require jQuery, jQuery UI Datepicker widget</dd>
-
-            <dt><a href="ui-equal-to/index.html">ui-equal-to</a></dt>
-            <dd>no additional requirements</dd>
-
-            <dt><a href="ui-grid/index.html">ui-grid</a></dt>
-            <dd>no additional requirements</dd>
-
-            <dt><a href="ui-isolated-form/index.html">ui-isolated-form</a></dt>
-            <dd>no additional requirements</dd>
-
-            <dt><a href="ui-length-limit/index.html">ui-length-limit</a></dt>
-            <dd>AngularJS 1.0.3</dd>
-
-            <dt><a href="ui-multicombo/index.html">ui-multicombo</a></dt>
-            <dd>no additional requirements</dd>
-
-            <dt><a href="ui-pagination/index.html">ui-pagination</a></dt>
-            <dd>no additional requirements</dd>
-
-            <dt><a href="ui-rate/index.html">ui-rate</a></dt>
-            <dd>require jQuery</dd>
-
-            <dt><a href="ui-responsive-width/index.html">ui-responsive-width</a></dt>
-            <dd>require jQuery</dd>
-
-            <dt><a href="ui-source/index.html">ui-source</a></dt>
-            <dd>require google-code-prettify</dd>
-        </dl>
-        <h1>Other</h1>
-        <dl>
-            <dt><a href="examples/validation/index.html">Validation examples</a></dt>
-            <dt><a href="examples/common-resolve/index.html">Common resolve for all routes</a></dt>
-            <dt><a href="https://github.com/andreev-artem/angular_experiments/blob/master/examples/promises/promises.spec.js">Promises examples + unit-tests</a></dt>
-            <dt><a href="https://github.com/andreev-artem/angular_experiments/blob/master/examples/architecture/">Example of AngularJS app architecture</a></dt>
-        </dl>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/a-bobkov/angular_experiments/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/a-bobkov/angular_experiments/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
     </div>
-</body>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
+
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+
+<h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Angular experiments maintained by <a href="https://github.com/a-bobkov">a-bobkov</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
 </html>
